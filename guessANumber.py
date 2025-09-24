@@ -5,6 +5,7 @@ guess a number program
 # This is a simple line of comment
 # Initial the guessable number
 # This change was made on my cloud9 IDE
+# This is a modification of the currently file
 number = 10
 
 # An infinite loop
