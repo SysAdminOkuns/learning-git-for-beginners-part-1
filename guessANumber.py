@@ -2,6 +2,7 @@
 This is our simple 
 guess a number program
 '''
+# This is a simple line of comment
 # Initial the guessable number
 number = 10
 
