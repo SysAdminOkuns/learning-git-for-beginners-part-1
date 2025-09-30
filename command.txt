@@ -1,0 +1,37 @@
+    1  pwd
+    2  cd ..
+    3  ls
+    4  cd environment/
+    5  touch test.py
+    6  ls -ls
+    7  ls -la
+    8  git branch -M main
+    9  git status
+   10  touch .gitignore
+   11  git status
+   12  vim .gitignore
+   13  git status
+   14  git remote add origin https://github.com/SysAdminOkuns/learning-git-for-beginners-part-1.git
+   15  git pull
+   16  git pull https://github.com/SysAdminOkuns/learning-git-for-beginners-part-1.git main
+   17  ls
+   18  git push -u origin main
+   19  git status
+   20  git add test.py 
+   21  git commit -m "Added a new test file from cloud9"
+   22  git push -u origin main
+   23  c
+   24  clear
+   25  history
+   26  ls -la
+   27  clear
+   28  aws s3 ls
+   29  aws ec2 list-instances
+   30  clear
+   31  c
+   32  aws ec2 help
+   33  aws ec2 describe-instances
+   34  clear
+   35  aws ec2 describe-instances --query "Reservations[*].Instances[*].[InstanceId,InstanceType,PlatformDetails]" --output json
+   36  history
+   37  history > command.txt
